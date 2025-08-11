@@ -1,0 +1,60 @@
+# This file was created Mon Oct  7 15:03:59 2024
+# Created by:
+#                     :-) GROMACS - gmx distance, 2023.3 (-:
+# 
+# Executable:   /opt/gromacs/2023.3/bin/gmx_mpi
+# Data prefix:  /opt/gromacs/2023.3
+# Working dir:  /home/spx/XR_MD/R3
+# Command line:
+#   gmx_mpi distance -s step7_md.tpr -f step7_md.xtc -n index_Dist.ndx -oav -oall -oxyz -oh -oallstat -dt 100 -e 1000000
+# gmx distance is part of G R O M A C S:
+#
+# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
+#
+@    title "Statistics for individual distances"
+@    xaxis  label "Distance index"
+@    yaxis  label "Average/standard deviation (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "MN1_40ASP_OD1 avg"
+@ s1 legend "MN1_40ASP_OD1 std.dev."
+@ s2 legend "MN1_40ASP_OD2 avg"
+@ s3 legend "MN1_40ASP_OD2 std.dev."
+@ s4 legend "MN1_47ASP_OD1 avg"
+@ s5 legend "MN1_47ASP_OD1 std.dev."
+@ s6 legend "MN1_47ASP_OD2 avg"
+@ s7 legend "MN1_47ASP_OD2 std.dev."
+@ s8 legend "MN1_127ASN_OD1 avg"
+@ s9 legend "MN1_127ASN_OD1 std.dev."
+@ s10 legend "MN1_127ASN_ND2 avg"
+@ s11 legend "MN1_127ASN_ND2 std.dev."
+@ s12 legend "MN1_248ASP_OD1 avg"
+@ s13 legend "MN1_248ASP_OD1 std.dev."
+@ s14 legend "MN1_248ASP_OD2 avg"
+@ s15 legend "MN1_248ASP_OD2 std.dev."
+@ s16 legend "MN1_252SER_OG avg"
+@ s17 legend "MN1_252SER_OG std.dev."
+@ s18 legend "MN2_40ASP_OD1 avg"
+@ s19 legend "MN2_40ASP_OD1 std.dev."
+@ s20 legend "MN2_40ASP_OD2 avg"
+@ s21 legend "MN2_40ASP_OD2 std.dev."
+@ s22 legend "MN2_47ASP_OD1 avg"
+@ s23 legend "MN2_47ASP_OD1 std.dev."
+@ s24 legend "MN2_47ASP_OD2 avg"
+@ s25 legend "MN2_47ASP_OD2 std.dev."
+@ s26 legend "MN2_127ASN_OD1 avg"
+@ s27 legend "MN2_127ASN_OD1 std.dev."
+@ s28 legend "MN2_127ASN_ND2 avg"
+@ s29 legend "MN2_127ASN_ND2 std.dev."
+@ s30 legend "MN2_248ASP_OD1 avg"
+@ s31 legend "MN2_248ASP_OD1 std.dev."
+@ s32 legend "MN2_248ASP_OD2 avg"
+@ s33 legend "MN2_248ASP_OD2 std.dev."
+@ s34 legend "MN2_252SER_OG avg"
+@ s35 legend "MN2_252SER_OG std.dev."
+      0.000    0.234    0.054    0.234    0.053    1.052    0.124    0.984    0.124    0.626    0.069    0.496    0.057    0.225    0.045    0.278    0.075    0.456    0.031    0.212    0.015    0.496    0.032    1.013    0.130    1.003    0.127    0.511    0.081    0.449    0.048    0.214    0.008    0.228    0.044    0.473    0.045
