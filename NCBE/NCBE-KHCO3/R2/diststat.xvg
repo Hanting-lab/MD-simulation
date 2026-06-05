@@ -1,0 +1,44 @@
+# This file was created Mon Apr  6 23:13:48 2026
+# Created by:
+#                     :-) GROMACS - gmx distance, 2023.3 (-:
+# 
+# Executable:   /opt/gromacs/2023.3/bin/gmx_mpi
+# Data prefix:  /opt/gromacs/2023.3
+# Working dir:  /home/spx/QA_MD/QA_KCH/R4_yes
+# Command line:
+#   gmx_mpi distance -s step7_md.tpr -f step7_md.xtc -n index_Dist.ndx -oav -oall -oxyz -oh -oallstat -dt 500 -e 500000
+# gmx distance is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "Statistics for individual distances"
+@    xaxis  label "Distance index"
+@    yaxis  label "Average/standard deviation (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "POT1_831ASP_OD1 avg"
+@ s1 legend "POT1_831ASP_OD1 std.dev."
+@ s2 legend "POT1_831ASP_OD2 avg"
+@ s3 legend "POT1_831ASP_OD2 std.dev."
+@ s4 legend "POT1_831ASP_O avg"
+@ s5 legend "POT1_831ASP_O std.dev."
+@ s6 legend "POT1_835THR_OG1 avg"
+@ s7 legend "POT1_835THR_OG1 std.dev."
+@ s8 legend "POT1_876ALA_O avg"
+@ s9 legend "POT1_876ALA_O std.dev."
+@ s10 legend "POT1_CO31_C avg"
+@ s11 legend "POT1_CO31_C std.dev."
+@ s12 legend "POT1_CO31_H3 avg"
+@ s13 legend "POT1_CO31_H3 std.dev."
+@ s14 legend "POT1_CO31_O1 avg"
+@ s15 legend "POT1_CO31_O1 std.dev."
+@ s16 legend "POT1_CO31_O2 avg"
+@ s17 legend "POT1_CO31_O2 std.dev."
+@ s18 legend "POT1_CO31_O3 avg"
+@ s19 legend "POT1_CO31_O3 std.dev."
+      0.000    0.334    0.071    0.307    0.067    0.352    0.093    0.314    0.089    0.268    0.023    0.401    0.151    0.495    0.170    0.392    0.154    0.392    0.179    0.470    0.152
