@@ -1,0 +1,44 @@
+# This file was created Sun Apr  5 11:22:00 2026
+# Created by:
+#                     :-) GROMACS - gmx distance, 2023.3 (-:
+# 
+# Executable:   /opt/gromacs/2023.3/bin/gmx_mpi
+# Data prefix:  /opt/gromacs/2023.3
+# Working dir:  /home/spx/QA_MD/QA_SOD_BCT/R4_yes
+# Command line:
+#   gmx_mpi distance -s step7_md.tpr -f step7_md.xtc -n index_Dist.ndx -oav -oall -oxyz -oh -oallstat -dt 500 -e 500000
+# gmx distance is part of G R O M A C S:
+#
+# God Rules Over Mankind, Animals, Cosmos and Such
+#
+@    title "Statistics for individual distances"
+@    xaxis  label "Distance index"
+@    yaxis  label "Average/standard deviation (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "SOD1_831ASP_OD1 avg"
+@ s1 legend "SOD1_831ASP_OD1 std.dev."
+@ s2 legend "SOD1_831ASP_OD2 avg"
+@ s3 legend "SOD1_831ASP_OD2 std.dev."
+@ s4 legend "SOD1_831ASP_O avg"
+@ s5 legend "SOD1_831ASP_O std.dev."
+@ s6 legend "SOD1_835THR_OG1 avg"
+@ s7 legend "SOD1_835THR_OG1 std.dev."
+@ s8 legend "SOD1_876ALA_O avg"
+@ s9 legend "SOD1_876ALA_O std.dev."
+@ s10 legend "SOD1_CO31_C avg"
+@ s11 legend "SOD1_CO31_C std.dev."
+@ s12 legend "SOD1_CO31_H3 avg"
+@ s13 legend "SOD1_CO31_H3 std.dev."
+@ s14 legend "SOD1_CO31_O1 avg"
+@ s15 legend "SOD1_CO31_O1 std.dev."
+@ s16 legend "SOD1_CO31_O2 avg"
+@ s17 legend "SOD1_CO31_O2 std.dev."
+@ s18 legend "SOD1_CO31_O3 avg"
+@ s19 legend "SOD1_CO31_O3 std.dev."
+      0.000    0.311    0.093    0.335    0.095    0.237    0.018    0.238    0.011    0.230    0.010    0.320    0.017    0.317    0.071    0.327    0.095    0.325    0.095    0.356    0.037
